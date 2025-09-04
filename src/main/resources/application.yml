@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: keycloak
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+jwt:
+  auth:
+    converter:
+      resource-id: kredmint-base
+      principle-attribute: preferred_username
